@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Oscorp</title>
+    <meta name="description" content="t06. Oscorp">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="header-first-row">
+            <a href="#"><img class="logo" src="assets/images/logo.png" alt="logo"></a>
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <input class="search-bar" type="text" placeholder="Search">
+
+            <span class="phone">Phone: +55 123 456 789</span>
+        </div>
+
+        <div class="header-second-row">
+            <div class="path">
+                <a class="previous" href="#">Home</a> / 
+                <a class="current" href="#">Catalog</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <h1>Catalog</h1>
+
+        <div class="checkbox-container-1">
+            <div class="checkbox-1">
+                <label class="classical" for="classical">Classical guitar</label>
+                <input type="checkbox" id="classical" class="classical-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="acoustic" for="acoustic">Acoustic guitar</label>
+                <input type="checkbox" id="acoustic" class="acoustic-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="electric" for="electric">Electric guitar</label>
+                <input type="checkbox" id="electric" class="electric-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="bass" for="bass">Bass guitar</label>
+                <input type="checkbox" id="bass" class="bass-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="ukulele" for="ukulele">Ukulele</label>
+                <input type="checkbox" id="ukulele" class="ukulele-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="amps" for="amps">Amplifiers</label>
+                <input type="checkbox" id="amps" class="amps-checkbox">
+            </div>
+
+            <div class="checkbox-1">
+                <label class="accessories" for="accessories">Accessories</label>
+                <input type="checkbox" id="accessories" class="accessories-checkbox">
+            </div>
+        </div>
+
+        <div class="sidebar-and-products">
+            <div class="sidebar">
+                <div class="checkbox-container-2">
+                    <p>Brands</p>
+    
+                    <div class="checkbox-2">
+                        <input type="checkbox" id="yamaha" class="yamaha-checkbox">
+                        <label class="yamaha" for="yamaha">Yamaha</label>
+                    </div>
+        
+                    <div class="checkbox-2">
+                        <input type="checkbox" id="gibson" class="gibson-checkbox">
+                        <label class="gibson" for="gibson">Gibson</label>
+                    </div>
+        
+                    <div class="checkbox-2">
+                        <input type="checkbox" id="ibanez" class="ibanez-checkbox">
+                        <label class="ibanez" for="ibanez">Ibanez</label>
+                    </div>
+        
+                    <div class="checkbox-2">
+                        <input type="checkbox" id="cort" class="cort-checkbox">
+                        <label class="cort" for="cort">Cort</label>
+                    </div>
+        
+                    <div class="checkbox-2">
+                        <input type="checkbox" id="fender" class="fender-checkbox">
+                        <label class="fender" for="fender">Fender</label>
+                    </div>
+                </div>
+    
+                <div class="price">
+                    <p class="price-header">Price</p>
+                    <input type="range" name="price" id="price" min="0" max="20000" step="1">
+                    <div class="price-range">
+                        <p class="null">0</p>
+                        <p class="twenty-thousand">20000</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="all-products">
+                <div class="product">
+                    <img src="assets/images/yamaha-pacifica.jpg" alt="yamaha-pacifica" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name"><a href="card.html"> YAMAHA PACIFICA STANDARD PLUS</a></p>
+                        <span class="pink-slay-guitar">(pink slay guitar)</span>
+                        <p class="product-price">100 000 000 000,00$</p>
+                        <p class="product-status-availiable">availiable</p>
+                        <button class="product-buy-button-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="assets/images/yamaha-rsp20.jpg" alt="yamaha-rsp20" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name not-availiable"><a href="card.html"> YAMAHA RSP20</a></p>
+                        <p class="product-price">1 799,00$</p>
+                        <p class="product-status-not-availiable">not availiable</p>
+                        <button class="product-buy-button-not-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="assets/images/yamaha-bb415.jpg" alt="yamaha-bb415" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name not-availiable"><a href="card.html"> YAMAHA BB415</a></p>
+                        <p class="product-price">269,99$</p>
+                        <p class="product-status-not-availiable">not availiable</p>
+                        <button class="product-buy-button-not-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="assets/images/yamaha-apx600m.jpg" alt="yamaha-apx600m" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name"><a href="card.html"> YAMAHA APX600M</a></p>
+                        <p class="product-price">489,00$</p>
+                        <p class="product-status-availiable">availiable</p>
+                        <button class="product-buy-button-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="assets/images/fender-mustanggtx100.png" alt="fender-mustanggtx100" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name"><a href="card.html">FENDER MUSTANG GTX100</a></p>
+                        <p class="product-price">599,00$</p>
+                        <p class="product-status-availiable">availiable</p>
+                        <button class="product-buy-button-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="assets/images/mediators.png" alt="mediators" class="product-picture">
+
+                    <div class="product-data">
+                        <p class="product-name"><a href="card.html">MEDIATORS</a></p>
+                        <p class="product-price">5,00$ per item</p>
+                        <p class="product-status-availiable">availiable</p>
+                        <button class="product-buy-button-availiable"><a href="card.html">BUY</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <footer class="cataloc-footer">
+        <p class="copyright">Copyright &copy; 2025 | herman's guitar shop | All Rights Reserved</p>
+        <p class="teams-of-service">Teams of Service | Privacy Policy</p>
+    </footer>
+</body>
+</html>
